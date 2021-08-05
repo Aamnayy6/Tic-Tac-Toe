@@ -57,12 +57,13 @@ h1{
     gap: 25px;
 }
 #pXscore{
-   
+   background-color: #171616;
     border-radius: 30px;
     box-shadow: 6px -1px 9px 3px rgb(255 255 255 / 10%);
     padding: 5px 20px;
 }
 #pOscore{
+    background-color: #171616;
     border-radius: 30px;
     box-shadow: 6px -1px 9px 3px rgb(255 255 255 / 10%);
     padding: 5px 20px;
@@ -75,7 +76,7 @@ button{
     padding: 5px;
     border: none;
     box-shadow: -2px 4px 15px -6px white;
-    padding-right: 15px;
+      padding-right: 15px;
     padding-left: 15px;
 }
 .choose-player{
