@@ -86,4 +86,5 @@ button{
 }
 button:hover{
     cursor: pointer;
+    box-shadow: -2px 4px 15px -6px inset;
 }
