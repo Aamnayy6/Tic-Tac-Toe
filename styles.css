@@ -75,6 +75,8 @@ button{
     padding: 5px;
     border: none;
     box-shadow: -2px 4px 15px -6px white;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .choose-player{
     display: flex;
@@ -83,8 +85,4 @@ button{
 }
 button:hover{
     cursor: pointer;
-}
-#reset{
-    padding-right: 5px;
-    padding-left: 5px;
 }
