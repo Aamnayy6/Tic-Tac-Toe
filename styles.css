@@ -1,0 +1,90 @@
+
+body{
+    color: white;
+    background-color: black;
+    text-align:  center;
+    font-family: sans-serif
+}
+h1{
+    font-size: 40px;
+    font-weight: 12px;
+}
+.grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 98px);
+    grid-template-rows: repeat(3, 98px);
+    background-color: white;
+    grid-gap: 7px;
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+    margin-top: 3rem;
+ 
+}
+.grid-square{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-color: black;
+    font-size: 50px;
+    padding: 15px;
+    transition: 0.5s;
+}
+.grid-square:hover{
+    cursor: pointer;
+}
+.animation{
+    
+    animation:appear 0.5s ease-in;
+    -webkit-animation:pop-in 0.5s;
+}
+@-webkit-keyframes pop-in {
+    0% { opacity: 0; -webkit-transform: scale(0.5); }
+    100% { opacity: 1; -webkit-transform: scale(1); }
+    }
+.grid-text{
+    margin: 0;
+}
+.scoreboard{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    gap: 25px;
+}
+#pXscore{
+   
+    border-radius: 30px;
+    box-shadow: 6px -1px 9px 3px rgb(255 255 255 / 10%);
+    padding: 5px 20px;
+}
+#pOscore{
+    border-radius: 30px;
+    box-shadow: 6px -1px 9px 3px rgb(255 255 255 / 10%);
+    padding: 5px 20px;
+}
+button{
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    box-shadow: -2px 4px 15px -6px white;
+}
+.choose-player{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+button:hover{
+    cursor: pointer;
+}
+#reset{
+    padding-right: 5px;
+    padding-left: 5px;
+}
